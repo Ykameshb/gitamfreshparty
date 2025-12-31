@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITAM Freshers Party</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Body and Header */
+        body {
+            background: #f0f8ff; /* light blue */
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b); /* vibrant gradient */
+            color: white;
+            padding: 20px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        /* Hero Section */
+        #hero {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        #hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #ffd700;
+            color: #333;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffc107;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #2575fc;
+            margin-bottom: 30px;
+        }
+
+        /* Cards */
+        .cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>GITAM Freshers Party 2026</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to the Grand Freshers Party!</h2>
+            <p>Get ready to celebrate, connect, and create unforgettable memories with fellow GITAMites!</p>
+            <a href="#about" class="btn">Know More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About the Party</h2>
+            <p>
+                The GITAM Freshers Party is an annual event organized to welcome the new batch of students.
+                Experience fun games, music, dance, and networking with seniors and peers. This party is designed
+                to celebrate the beginning of a new journey, fostering friendships and campus spirit.
+            </p>
+        </div>
+    </section>
+
+    <section id="events">
+        <div class="container">
+            <h2>Exciting Events</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Music & Dance</h3>
+                    <p>Enjoy live performances, DJ nights, and dance-offs.</p>
+                </div>
+                <div class="card">
+                    <h3>Games & Competitions</h3>
+                    <p>Participate in fun games and win exciting prizes.</p>
+                </div>
+                <div class="card">
+                    <h3>Networking & Meetups</h3>
+                    <p>Interact with seniors, faculty, and fellow freshers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>For queries or participation, reach out to us at: <a href="mailto:freshers@gitam.edu">freshers@gitam.edu</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 GITAM Freshers Party. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
